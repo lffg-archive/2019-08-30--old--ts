@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 URI="https://raw.githubusercontent.com/lffg/ts/master"
 
 FILES=(
