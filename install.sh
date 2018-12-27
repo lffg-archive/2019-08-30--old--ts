@@ -19,17 +19,8 @@ done
 
 echo ""
 echo "Done."
-echo "Do you want to install the dependencies (will use Yarn)? (y/N)"
-read install
-
-if [ "$install" = "y" -o "$install" = "Y" ]; then
-  if [ ! -f "package.json" ]; then
-    yarn init -y --silent
-  fi
-
-  yarn add typescript tslint tslint-config-prettier --silent --dev
-  echo ""
-  echo "Done."
-else
-  echo "Ok. Bye."
-fi
+echo ""
+echo "Now to install the dependencies, run:"
+echo "yarn add typescript tslint tslint-config-prettier --dev"
+echo ""
+echo "Bye."
