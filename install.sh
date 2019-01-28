@@ -5,6 +5,7 @@ URI="https://raw.githubusercontent.com/lffg/ts/master"
 FILES=(
   "tsconfig.json"
   "tslint.json"
+  ".prettierrc.json"
 )
 
 for file in "${FILES[@]}"; do
@@ -21,6 +22,6 @@ echo ""
 echo "Done."
 echo ""
 echo "Now to install the dependencies, run:"
-echo "yarn add typescript tslint tslint-config-prettier --dev"
+echo "yarn add typescript tslint prettier tslint-config-prettier --dev"
 echo ""
 echo "Bye."
