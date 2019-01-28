@@ -4,6 +4,6 @@ curl -Ls https://raw.githubusercontent.com/lffg/ts/master/install.sh | bash
 
 ---
 
-After that, you may install the dependencies (`typescript`, `tslint`, `tslint-config-prettier`), running:
+After that, you may install the dependencies (`typescript`, `tslint`, `prettier`, `tslint-config-prettier`), running:
 
-yarn add typescript tslint tslint-config-prettier --dev
+yarn add typescript tslint prettier tslint-config-prettier --dev
